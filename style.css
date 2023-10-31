@@ -40,6 +40,7 @@ article {
   height: 10rem;
   border-radius: 0.3rem;
   background-color: var(--secondary-color);
+  border: thick solid var(--font-color);
 }
 
 section {
@@ -47,6 +48,7 @@ section {
   width: 70%;
   background-color: var(--acsent-color);
   transition: background-color 0.2s, width 0.2s, height 0.2s;
+  border: thick dashed var(--font-color);
 }
 
 section:hover {
@@ -69,20 +71,4 @@ section:hover {
 
 .bottom {
   align-items: end;
-}
-
-.solid {
-  border: 0.3rem solid var(--font-color);
-}
-
-.dashed {
-  border: 0.3rem dashed var(--font-color);
-}
-
-.dotted {
-  border: 0.3rem dotted var(--font-color);
-}
-
-.double {
-  border: 0.3rem double var(--font-color);
 }
