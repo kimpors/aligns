@@ -16,7 +16,7 @@ const LoginCard = () =>
           <br />
           <input type="password" />
         </p>
-        <Link href='/'>Login</Link>
+        <Link href='/sorry'>Login</Link>
       </section>
     </article>
   )
