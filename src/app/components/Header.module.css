@@ -1,0 +1,17 @@
+.header
+{
+  color: var(--text);
+  background-color: var(--second);
+
+  grid-column: col-start 1 / 13;
+  grid-row: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header nav
+{
+  padding-left: 3rem;
+}

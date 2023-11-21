@@ -1,7 +1,9 @@
+import styles from './Footer.module.css';
+
 const Footer = () => 
 {
   return (
-    <footer>
+    <footer className={ styles.footer }>
       <h2>Web Host</h2>
 
       <section>

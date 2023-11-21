@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import styles from './Header.module.css';
 
 interface Props
 {
@@ -9,7 +10,7 @@ interface Props
 const Header = ({ children, links }: Props) =>
 {
   return (
-    <header>
+    <header className={ styles.header }>
       <h1>{ children }</h1>
       <nav>
         {links.map(link => <Link href={ link }> { link.substring(1) || "home" } </Link>)}
