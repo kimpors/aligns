@@ -20,6 +20,24 @@ function Home()
       <Card className={ styles.item1} title="Basic" description={ description } link="/plans" />
       <Card className={ styles.item2 } title="Standart" description={ description } link="/plans" />
       <Card className={ styles.item3 } title="Advanced" description={ description } link="/plans" />
+      <article className={ styles.info }>
+        <h2>Perfect solution</h2>
+        <section>
+          <p>
+            Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
+          </p>
+        </section>
+      </article>
+      <article className={ styles.start }>
+        <h2>Start For Free</h2>
+        <Link href="/login">Now</Link>
+      </article>
       <Footer />
     </>
   )
