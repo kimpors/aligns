@@ -4,8 +4,7 @@
   background-color: var(--prime);
   font-weight: bold;
 
-  grid-column: col-start 1 / 13;
-  grid-row: 3;
+  grid-area: -1 / 1 / -1 / -1;
 
   display: flex;
   flex-direction: column;

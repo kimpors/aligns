@@ -1,0 +1,14 @@
+.item1
+{
+  grid-area: 2 / 1 / 2 / 5;
+}
+
+.item2
+{
+  grid-area: 2 / 5 / 2 / 9;
+}
+
+.item3
+{
+  grid-area: 2 / 9 / 2 / 13;
+}

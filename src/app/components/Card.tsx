@@ -3,15 +3,18 @@ import styles from './Card.module.css';
 
 interface Props
 {
+  className?: string;
   title: string;
   description: string;
   link: string;
 }
 
-const Card = ( { title, description, link }: Props) => 
+const Card = ( { className, title, description, link }: Props) => 
 {
+  const card = `${ styles.card } + ${ className || ""}`;
+
   return (
-    <section className={ styles.card }>
+    <section className={ card }>
       <h2>{ title }</h2> 
       <p>{ description }</p>
       <Link href={ link }>more</Link>
