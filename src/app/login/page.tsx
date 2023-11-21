@@ -1,4 +1,5 @@
 import Header from '../components/Header';
+import LoginCard from '../components/LoginCard';
 import Footer from '../components/Footer';
 
 const links = [ "/", "/plans", "/about"];
@@ -10,6 +11,7 @@ const Login = () =>
       <Header links={ links }>
         Login
       </Header>
+      <LoginCard />
       <Footer />
     </>
   )
