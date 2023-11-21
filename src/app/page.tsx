@@ -15,7 +15,9 @@ function Home()
       <Header links={ links }>
         Web Hosting
       </Header>
-      <Card title="Hello" description={ description } link="/plans" />
+      <Card title="Basic" description={ description } link="/plans" />
+      <Card title="Standart" description={ description } link="/plans" />
+      <Card title="Advanced" description={ description } link="/plans" />
       <Footer />
     </>
   )
