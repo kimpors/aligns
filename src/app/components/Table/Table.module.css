@@ -1,0 +1,45 @@
+.table
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  grid-area: 2 / 1 / -1 / -1;
+  overflow: scroll;
+}
+
+.table table
+{
+  border-collapse: collapse;
+  margin: 1rem;
+  min-width: 400px;
+
+  border-radius: 15px 15px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 10px var(--prime);
+}
+
+.table table thead
+{
+  color: var(--prime);
+  background-color: var(--second);
+  text-align: left;
+  font-weight: bold;
+}
+
+.table table th,
+.table table td
+{
+  padding: 1rem 1.5rem;
+}
+
+.table tbody tr:nth-of-type(even)
+{
+  background-color: var(--accent);
+}
+
+.table tbody tr:last-of-type
+{
+  border-bottom: 5px solid var(--second);
+}
