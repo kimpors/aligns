@@ -12,10 +12,30 @@ const Table = ({ columns, rows }: Props) =>
     <section className={ styles.table }>
       <table>
         <thead>
-          <tr>{columns.map(column => <th>{ column }</th>)}</tr>
+          <tr>
+            {
+              columns.map((column, index) => (
+                <th key={ index }>
+                  { column }
+                </th>
+              ))
+            }
+          </tr>
         </thead>
         <tbody>
-          {rows.map(row => <tr>{row.map(ceil => <td>{ ceil }</td>)}</tr>)}
+          {
+            rows.map((row, index) => (
+              <tr key={ index }>
+                {
+                  row.map(ceil => (
+                    <td key={ ceil }>
+                      { ceil }
+                    </td>
+                  ))
+                }
+              </tr>
+            ))
+          }
         </tbody>
       </table>
     </section>

@@ -10,7 +10,7 @@ const Sorry = () =>
     </Header>
     <section className={ styles.sorry }>
       <p>
-        This feature doesn't implemented.... so you can go back
+        This feature doesnt implemented.... so you can go back
       </p>
     </section>
   </>

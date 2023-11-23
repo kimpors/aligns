@@ -13,7 +13,15 @@ const Header = ({ children, links }: Props) =>
     <header className={ styles.header }>
       <h1>{ children }</h1>
       <nav>
-        {(links || []).map(link => <Link href={ link }> { link.substring(1) || "home" } </Link>)}
+        {
+          (links || []).map(link => (
+            <Link key={ link } href={ link }>
+              { 
+                link.substring(1) || "home"
+              }
+            </Link>
+          ))
+        }
       </nav>
     </header>
   )
