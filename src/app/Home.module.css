@@ -21,9 +21,10 @@
 
 .info section > p
 {
-  /* width: 50ch; */
   text-wrap: wrap;
   padding-inline: 1.5rem;
+  max-width: 45ch;
+  text-align: center;
 }
 
 .start

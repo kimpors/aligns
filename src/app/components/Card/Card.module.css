@@ -1,9 +1,15 @@
 .card
 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-rows: 80px 1fr 80px;
+  grid-template-areas: 
+            "title"
+            "content"
+            "more";
+
+
+  align-items: start;
+  justify-items: center;
 
   background-color: var(--second);
   border-radius: 15px;
@@ -13,20 +19,23 @@
 
 .card > h2
 {
-  color: var(--prime)
+  grid-area: title;
+  color: var(--prime);
 }
 
 .card > p
 {
-  padding-inline: 2rem;
-  /* width: 50ch; */
+  grid-area: content;
+
+  max-width: 45ch;
+  padding-inline: 1rem;
   flex-wrap: wrap;
-  /* text-wrap: wrap; */
   text-align: center;
 }
 
 .card > a
 {
+  grid-area: more;
   color: var(--bg);
   background-color: var(--accent);
   padding: .5rem;
