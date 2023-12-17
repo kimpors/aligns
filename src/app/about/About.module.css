@@ -4,18 +4,29 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  grid-area: 2 / 3 / -1 / 10;
-  overflow: scroll;
 }
 
-.about > h2
+.about section
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.about h3,
+.about section > p
+{
+  text-align: left;
+}
+
+.about h2,
+.about h3
 {
   color: var(--prime);
 }
 
-.about > p
+.about p
 {
   text-align: center;
   width: 50ch;
 }
+

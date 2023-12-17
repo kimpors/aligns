@@ -21,9 +21,11 @@ function Home()
       <Header links={ links }>
         Web Hosting
       </Header>
-      <Card className={ styles.item1} title="Basic" description={ basic } link="/plans" />
-      <Card className={ styles.item2 } title="Standart" description={ standart } link="/plans" />
-      <Card className={ styles.item3 } title="Advanced" description={ advanced } link="/plans" />
+      <article className={ styles.plans }>
+        <Card className={ styles.item1} title="Basic" description={ basic } link="/plans" />
+        <Card className={ styles.item2 } title="Standart" description={ standart } link="/plans" />
+        <Card className={ styles.item3 } title="Advanced" description={ advanced } link="/plans" />
+      </article>
       <article className={ styles.info }>
         <h2>Perfect solution</h2>
         <section>

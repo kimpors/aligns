@@ -33,8 +33,13 @@ body
 body 
 {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  /* grid-template-areas:  */
+  /* "header header header" */
+  /* "content content content" */
+  /* "footer footer footer"; */
+
+  grid-auto-rows: 1fr;
+
   gap: 20px;
 
   color: var(--text);

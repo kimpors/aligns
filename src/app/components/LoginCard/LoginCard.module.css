@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  grid-area: 2 / 1 / -1 / -1;
+  grid-row: 2 / 6;
 }
 
 .login section

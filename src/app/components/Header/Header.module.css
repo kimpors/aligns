@@ -1,9 +1,9 @@
 .header
 {
+  grid-row: -1 / -1;
+
   color: var(--text);
   background-color: var(--second);
-
-  grid-area: 1 / 1 / 1 / -1;
 
   display: flex;
   justify-content: center;

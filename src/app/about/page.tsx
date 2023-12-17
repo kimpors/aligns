@@ -11,15 +11,17 @@ const About = () =>
       <Header links={ links }>
         About us
       </Header>
-      <section className={ styles.about }>
-      <h2>About us</h2>
+      <article className={ styles.about }>
+        <h2>About us</h2>
         <p>
           Welcome to WebHost - your go-to destination for reliable
           web hosting. We're dedicated to fueling your online
           success with cutting-edge solutions and unwavering support.
         </p>
-
+      </article>
+      <article className={ styles.about }>
         <h2>Why WebHost?</h2>
+
         <section>
           <h3>Expert Team</h3>
           <p>
@@ -42,16 +44,15 @@ const About = () =>
             hosting solutions.
           </p>
         </section>
-
-
-        <h2>Join us</h2>
+      </article>
+      <article className={ styles.about }>
+        <h2>Leading Technology</h2>
         <p>
-          Whether you're a blogger or a business owner, make
-          WebHost your partner in online success. We're here
-          to turn your digital ambitions into reality.
-          Thanks for choosing us – let's build success together!
+          Embrace the future with our state-of-the-art
+          infrastructure, providing fast, secure, and scalable
+          hosting solutions.
         </p>
-      </section>
+      </article>
       <Footer />
     </>
   )
