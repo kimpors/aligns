@@ -15,7 +15,7 @@ const About = () =>
         <h2>About us</h2>
         <p>
           Welcome to WebHost - your go-to destination for reliable
-          web hosting. We're dedicated to fueling your online
+          web hosting. We are dedicated to fueling your online
           success with cutting-edge solutions and unwavering support.
         </p>
       </article>
@@ -33,7 +33,7 @@ const About = () =>
           <h3>Customer Focused</h3>
           <p>
             Experience 24/7 support focused on your satisfaction.
-            We're here to troubleshoot, answer questions,
+            We are here to troubleshoot, answer questions,
             and ensure your hosting is seamless.
           </p>
 
@@ -57,5 +57,4 @@ const About = () =>
     </>
   )
 }
-
 export default About;
