@@ -1,10 +1,9 @@
-import styles from './About.module.css';
-
+import styles from './styles.module.css';
 
 const About = () =>
 {
   return (
-    <>
+    <main role="main">
       <article className={ styles.about }>
         <h2>About us</h2>
         <p>
@@ -47,7 +46,7 @@ const About = () =>
           hosting solutions.
         </p>
       </article>
-    </>
+    </main>
   )
 }
 export default About;

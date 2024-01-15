@@ -1,13 +1,11 @@
 import Link from 'next/link';
-
 import Card from './components/Card/Card';
-
-import styles from './Home.module.css';
+import styles from './styles.module.css';
 
 function Home()
 {
   return (
-    <>
+    <main role="main">
       <article className={ styles.plans }>
         <Card>
           <h2>Basic</h2>
@@ -77,7 +75,7 @@ function Home()
         <h2>Start For Free</h2>
         <Link href="/login">Now</Link>
       </article>
-    </>
+    </main>
   )
 }
 

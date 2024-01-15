@@ -1,4 +1,4 @@
-import Table from '../components/Table/Table';
+import styles from './styles.module.css'
 
 
 const Plans = () =>
@@ -13,9 +13,38 @@ const Plans = () =>
     ];
 
   return (
-    <>
-      <Table columns={ columns } rows={ rows } />
-    </>
+    <main role="main">
+      <article className={ styles.table }>
+        <table>
+          <thead>
+            <tr>
+              {
+                columns.map((column, index) => (
+                  <th key={ index }>
+                    { column }
+                  </th>
+                ))
+              }
+            </tr>
+          </thead>
+          <tbody>
+            {
+              rows.map((row, index) => (
+                <tr key={ index }>
+                  {
+                    row.map(ceil => (
+                      <td key={ ceil }>
+                        { ceil }
+                      </td>
+                    ))
+                  }
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </article>
+    </main>
   )
 }
 

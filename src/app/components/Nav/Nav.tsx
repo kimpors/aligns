@@ -21,7 +21,7 @@ const Nav = () =>
         <h2>{ links.get(pathname) }</h2>
         {
           Array.from(links.keys()).map(link => (
-            <Link href={ link }>{ link.substring(1) || "home" }</Link>
+            <Link key={ link } href={ link }>{ link.substring(1) || "home" }</Link>
           ))
         }
       </nav>
