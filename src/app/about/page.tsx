@@ -1,16 +1,10 @@
-import Header from '../components/Header/Header';
-import Footer from '../components/Footer/Footer';
 import styles from './About.module.css';
 
-const links = [ "/", "/plans", "/login"];
 
 const About = () =>
 {
   return (
     <>
-      <Header links={ links }>
-        About us
-      </Header>
       <article className={ styles.about }>
         <h2>About us</h2>
         <p>
@@ -53,7 +47,6 @@ const About = () =>
           hosting solutions.
         </p>
       </article>
-      <Footer />
     </>
   )
 }

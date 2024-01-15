@@ -1,5 +1,4 @@
-.header
-{
+.nav {
   grid-row: -1 / -1;
 
   color: var(--text);
@@ -10,12 +9,7 @@
   align-items: center;
 }
 
-.header nav
-{
-  padding-left: 3rem;
-}
-
-.header nav > *
+.nav > a
 {
   padding-inline: 10px;
 }

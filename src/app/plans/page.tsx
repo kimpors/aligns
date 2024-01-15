@@ -1,8 +1,5 @@
-import Header from '../components/Header/Header';
 import Table from '../components/Table/Table';
-import Footer from '../components/Footer/Footer';
 
-const links = [ "/", "/login", "/about"];
 
 const Plans = () =>
 {
@@ -17,11 +14,7 @@ const Plans = () =>
 
   return (
     <>
-      <Header links={ links }>
-        Plans
-      </Header>
       <Table columns={ columns } rows={ rows } />
-      <Footer />
     </>
   )
 }
