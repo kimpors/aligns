@@ -8,12 +8,6 @@ import styles from './Home.module.css';
 
 const links = [ "/plans", "/login", "/about" ];
 
-const basic = "Our Basic Plan is perfect for individuals and small businesses looking to establish their online presence. With reliable hosting services, you get a solid foundation for your website without breaking the bank. Enjoy ample storage space, essential features, and responsive customer support to ensure your website is up and running smoothly.";
-
-const standart = "Upgrade to our Standard Plan for a more robust hosting experience. Ideal for growing businesses and websites with moderate traffic, this plan offers increased resources, faster loading times, and enhanced security features. Benefit from advanced tools and a user-friendly control panel to manage your site effortlessly. Our Standard Plan strikes the right balance between performance and affordability."
-
-const advanced = "For high-performance websites and demanding online ventures, our Advanced Plan is the ultimate solution. Unleash the full potential of your website with top-tier hosting infrastructure, priority support, and advanced security measures. Enjoy lightning-fast load times, generous resource allocations, and the flexibility to customize your hosting environment. The Advanced Plan is designed for businesses that prioritize speed, reliability, and scalability for their online success."
-
 function Home()
 {
   return (
@@ -22,9 +16,31 @@ function Home()
         Web Hosting
       </Header>
       <article className={ styles.plans }>
-        <Card className={ styles.item1} title="Basic" description={ basic } link="/plans" />
-        <Card className={ styles.item2 } title="Standart" description={ standart } link="/plans" />
-        <Card className={ styles.item3 } title="Advanced" description={ advanced } link="/plans" />
+        <Card className={ styles.item1 } title="Basic" link="/plans">
+            Our Basic Plan is perfect for individuals and small businesses
+            looking to establish their online presence. With reliable hosting
+            services, you get a solid foundation for your website without breaking
+            the bank. Enjoy ample storage space, essential features, and
+            responsive customer support to ensure your website is up and
+            running smoothly.
+        </Card>
+        <Card className={ styles.item1 } title="Standart" link="/plans">
+          Upgrade to our Standard Plan for a more robust hosting experience.
+          Ideal for growing businesses and websites with moderate traffic, this
+          plan offers increased resources, faster loading times, and enhanced
+          security features. Benefit from advanced tools and a user-friendly
+          control panel to manage your site effortlessly. Our Standard Plan
+          strikes the right balance between performance and affordability.
+        </Card>
+        <Card className={ styles.item1 } title="Advanced" link="/plans">
+          For high-performance websites and demanding online ventures, our
+          Advanced Plan is the ultimate solution. Unleash the full potential
+          of your website with top-tier hosting infrastructure, priority support,
+          and advanced security measures. Enjoy lightning-fast load times,
+          generous resource allocations, and the flexibility to customize your
+          hosting environment. The Advanced Plan is designed for businesses that
+          prioritize speed, reliability, and scalability for their online success.
+        </Card>
       </article>
       <article className={ styles.info }>
         <h2>Perfect solution</h2>
