@@ -17,9 +17,7 @@ const Plans = () =>
         <table>
           <thead>
             <tr>
-              {
-                columns.map(column => <th>{ column }</th>)
-              }
+              { columns.map(column => <th>{ column }</th>) }
             </tr>
           </thead>
           <tbody>

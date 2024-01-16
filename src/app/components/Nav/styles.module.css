@@ -1,5 +1,5 @@
 .nav {
-  grid-row: -1 / -1;
+  grid-row: 1 / 2;
 
   color: var(--prime);
   background-color: var(--second);

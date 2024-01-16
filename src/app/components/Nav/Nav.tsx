@@ -16,16 +16,14 @@ const Nav = () =>
   const pathname = usePathname()
 
   return(
-    <header>
-      <nav className={ styles.nav }>
-        <h2>{ links.get(pathname) }</h2>
-        {
-          Array.from(links.keys()).map(link => (
-            <Link key={ link } href={ link }>{ link.substring(1) || "home" }</Link>
-          ))
-        }
-      </nav>
-    </header>
+    <nav className={ styles.nav }>
+      <h2>{ links.get(pathname) }</h2>
+      {
+        Array.from(links.keys()).map(link => (
+          <Link key={ link } href={ link }>{ link.substring(1) || "home" }</Link>
+        ))
+      }
+    </nav>
   )
 }
 

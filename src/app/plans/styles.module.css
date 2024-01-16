@@ -15,9 +15,9 @@
   margin: 1rem;
   min-width: 400px;
 
-  border-radius: 15px 15px 0 0;
+  border-radius: 10px 10px 0 0;
   overflow: hidden;
-  box-shadow: 0 0 10px var(--prime);
+  box-shadow: 3px 3px 10px black;
 }
 
 .table table thead
@@ -32,6 +32,10 @@
 .table table td
 {
   padding: 1rem 1.5rem;
+}
+
+.table table td {
+  font-style: italic;
 }
 
 .table tbody tr:nth-of-type(even)

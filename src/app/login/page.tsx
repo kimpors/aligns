@@ -7,17 +7,21 @@ const Login = () =>
     <main role="main">
       <article className={ styles.login }>
         <section>
-          <p>
-            <label>Nickname</label>
-            <br />
-            <input type="text" />
-          </p>
-          <p>
-            <label>Password</label>
-            <br />
-            <input type="password" />
-          </p>
-          <Link href='/sorry'>Login</Link>
+          <section>
+            <p>
+              <label>Nickname</label>
+              <br />
+              <input type="text" />
+            </p>
+          </section>
+          <section>
+            <p>
+              <label>Password</label>
+              <br />
+              <input type="password" />
+            </p>
+            <Link href='/sorry'>Login</Link>
+          </section>
         </section>
       </article>
     </main>
