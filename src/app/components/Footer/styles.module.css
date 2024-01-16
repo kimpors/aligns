@@ -1,10 +1,18 @@
-.footer
-{
-  grid-row: 0 / -1;
+.footer {
+  grid-row: 0 / -2;
 
+  display: flex;
+  align-items: end;
+  justify-content: stretch;
+}
+
+.footer > article
+{
   color: var(--bg);
   background-color: var(--prime);
   font-weight: bold;
+
+  width: 100%;
 
   display: flex;
   flex-direction: column;
@@ -12,13 +20,10 @@
   align-items: center;
 }
 
-.footer section
+.footer > article > section 
 {
+  height: 100%;
   display: flex;
-}
-
-.footer section
-{
   justify-content: left;
 }
 
