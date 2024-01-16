@@ -33,11 +33,6 @@ body
 body 
 {
   display: grid;
-  /* grid-template-areas:  */
-  /* "header header header" */
-  /* "content content content" */
-  /* "footer footer footer"; */
-
   grid-auto-rows: 1fr;
 
   gap: 20px;

@@ -1,7 +1,7 @@
 .nav {
   grid-row: -1 / -1;
 
-  color: var(--text);
+  color: var(--prime);
   background-color: var(--second);
 
   display: flex;
@@ -9,7 +9,11 @@
   align-items: center;
 }
 
+.nav h2 {
+  padding-inline: 10px;
+}
+
 .nav > a
 {
-  padding-inline: 10px;
+  padding-inline: 5px;
 }

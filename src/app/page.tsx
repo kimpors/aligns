@@ -48,27 +48,33 @@ function Home()
       <article className={ styles.info }>
         <h2>Perfect solution</h2>
         <section>
-          <p>
+          <section>
             <h3>Unbeatable Reliability</h3>
-            Count on us for uninterrupted website performance,
-            minimal downtime, and swift loading times. Our robust
-            infrastructure ensures a consistently reliable hosting
-            experience.
-          </p>
+            <p>
+              Count on us for uninterrupted website performance,
+              minimal downtime, and swift loading times. Our robust
+              infrastructure ensures a consistently reliable hosting
+              experience.
+            </p>
+          </section>
 
-          <p>
+          <section>
             <h3>Seamless Scalability</h3>
-            Adapt effortlessly to your growing needs. Upgrade your
-            hosting plan with ease as your website expands, accommodating
-            increased traffic and resource demands.
-          </p>
+            <p>
+              Adapt effortlessly to your growing needs. Upgrade your
+              hosting plan with ease as your website expands, accommodating
+              increased traffic and resource demands.
+            </p>
+          </section>
 
-          <p>
+          <section>
             <h3>Support and Security Excellence</h3>
-            Experience dedicated customer support 24/7. Our advanced
-            security features shield your website from threats,
-            providing a worry-free environment for your online presence.
-          </p>
+            <p>
+              Experience dedicated customer support 24/7. Our advanced
+              security features shield your website from threats,
+              providing a worry-free environment for your online presence.
+            </p>
+          </section>
         </section>
       </article>
       <article className={ styles.start }>

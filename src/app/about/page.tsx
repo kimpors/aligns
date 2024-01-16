@@ -14,7 +14,6 @@ const About = () =>
       </article>
       <article className={ styles.about }>
         <h2>Why WebHost?</h2>
-
         <section>
           <h3>Expert Team</h3>
           <p>
@@ -37,14 +36,6 @@ const About = () =>
             hosting solutions.
           </p>
         </section>
-      </article>
-      <article className={ styles.about }>
-        <h2>Leading Technology</h2>
-        <p>
-          Embrace the future with our state-of-the-art
-          infrastructure, providing fast, secure, and scalable
-          hosting solutions.
-        </p>
       </article>
     </main>
   )

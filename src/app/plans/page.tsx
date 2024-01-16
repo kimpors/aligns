@@ -9,8 +9,7 @@ const Plans = () =>
     ["Setup Fee", "0$", "0$", "0$"],
     ["Setup Fee", "0$", "0$", "0$"],
     ["Plan Name", "MK1", "MK2", "MK3"],
-    ["Web Space", "5GB", 'Unlimited', "Unlimited"],
-    ];
+    ["Web Space", "5GB", 'Unlimited', "Unlimited"]];
 
   return (
     <main role="main">
@@ -19,24 +18,16 @@ const Plans = () =>
           <thead>
             <tr>
               {
-                columns.map((column, index) => (
-                  <th key={ index }>
-                    { column }
-                  </th>
-                ))
+                columns.map(column => <th>{ column }</th>)
               }
             </tr>
           </thead>
           <tbody>
             {
-              rows.map((row, index) => (
-                <tr key={ index }>
+              rows.map((row) => (
+                <tr>
                   {
-                    row.map(ceil => (
-                      <td key={ ceil }>
-                        { ceil }
-                      </td>
-                    ))
+                    row.map(ceil => <td>{ ceil }</td>)
                   }
                 </tr>
               ))
